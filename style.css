@@ -1,0 +1,225 @@
+.our-pricing-section{
+    background: #f5f9fc;
+}
+.pricing-text{}
+.pricing-text h6 {
+    color: #315ad3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pricing-text h3 {
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+}
+.pricing-text h3::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #315ad3;
+    bottom: -25px;
+    left: 46%;
+}
+.pricing-text p {
+    color: #606060;
+    margin-bottom: 63px;
+}
+
+.user-pricing-box{
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 0px #6060603f;
+}
+.user-pricing-box h4 {
+    font-size: 31px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 26px;
+}
+.user-pricing-box h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #111;
+    transition: .5s;
+}
+.user-pricing-box h1:hover{
+    transform: scale(1.1);
+    color: #315ad3;
+}
+.user-pricing-box p {
+    color: #767676;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    position: relative;
+}
+.user-pricing-box p::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    background: linear-gradient( to left,#fff,rgb(224, 233, 241) , rgb(95, 95, 194), rgb(230, 236, 247),#fff);
+    bottom: -29px;
+    left: 37px;
+}
+.user-pricing-box a {
+    margin-top: 15px;
+    font-weight: 600;
+}
+.user-pricing-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.user-pricing-box ul li {
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+/* lite-section */
+.lite-section{
+    background: url(./img/free-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+.lite-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #325bd6e5;
+    z-index: -1;
+}
+.lfwf-lite{}
+.lfwf-lite h6 {
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.lfwf-lite h2 {
+    margin-bottom: 40px;
+    position: relative;
+}
+.lfwf-lite h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    bottom: -23px;
+    left: 45%;
+    background: #fff;
+}
+.lfwf-lite p{}
+.lfwf-lite a{
+    color: #325bd6e5;
+    font-weight: 500;
+}
+/* newsletter-section */
+.newsletter-section{
+    background-color: #f6f9fc;
+}
+.newsletter-singin {
+    background-color: #3763eb;
+    border-radius: 5px;
+    color: #fff;
+}
+.newsletter-singin{}
+.newsletter-singin h4 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.newsletter-singin p {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 32px;
+}
+.input1 {
+    outline: 0 !important;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 32px;
+    color: #606060;
+    font-weight: 500;
+}
+.button1 {
+    outline: 0 !important;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #3763eb;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 32px;
+}
+.newsletter-bussines {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 38px 24px;
+    box-shadow: 0px 0px 15px 0px #76767625;
+}
+.newsletter-bussines h3{}
+.newsletter-bussines p{}
+/*  our-awesome-clients*/
+.awesome-clients-content h6 {
+    color: #3763eb;
+    font-weight: 400;
+}
+.awesome-clients-content h2 {
+    width: 74%;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #111;
+    position: relative;
+}
+.awesome-clients-content p {
+    color: #606060;
+    font-size: 18px;
+    font-weight: 400;
+}
+.awesome-clients-content h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #3763eb;
+    bottom: -28px;
+    left: 0;
+}
+.imageDiv-2{
+    position: relative;
+    transition: .5s;
+    
+}
+.imageDiv-2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.589);
+    transition: .5s;
+    z-index: 1;
+}
+.imageDiv-2:hover::after{
+    z-index: -1;
+}
+.imageDiv-2:hover{
+    background-color: #f6f9fc;
+}
+.imageDiv-2:hover.imageDiv-2 img{
+    transform: scale(1.15);
+}
+.imageDiv-2 img {
+    width: 160px;
+    height: 120px;
+    transition: .5s;
+}
